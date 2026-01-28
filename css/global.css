@@ -97,7 +97,11 @@ body{
     color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 0.9rem;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
+}
+.btn-header a:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
 }
 
 /*==================================*/
@@ -133,6 +137,9 @@ body{
     border-radius: 8px;
     transition: background-color 0.3s ease;
 }
+.sessao-inicial a:hover{
+    background-color: rgb(255, 255, 255);
+}
 
 /*===================================*/
 /*          Case de Sucesso          */
@@ -159,7 +166,11 @@ body{
     text-decoration: none;
     background-color: var(--cor-amarelo);
     color: rgb(0, 0, 0);
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
+}
+.btn-case-de-sucesso:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
 }
 
 /*===================================*/
@@ -191,7 +202,11 @@ body{
     text-decoration: none;
     background-color: var(--cor-amarelo);
     color: rgb(0, 0, 0);
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
+}
+.content-card-planos a:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
 }
 
 /*===================================*/
@@ -231,7 +246,11 @@ body{
     color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 0.9rem;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
+}
+.btn-chamada-acao:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
 }
 
 /*=================================*/
