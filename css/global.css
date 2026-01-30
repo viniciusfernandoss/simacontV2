@@ -22,7 +22,7 @@
     height: 85px;
     border-radius: 50%;
     background-color: transparent;
-    color: var(--cor-amarelo);
+    color: #0ba360;
     box-shadow: 0 0 0 0 rgba(226, 41, 41, 0);
     animation: pulse-WhatsApp 2s infinite;
     transition: all 0.3s ease 0s;
@@ -49,10 +49,11 @@ body{
 
 @keyframes pulse-WhatsApp{
     0%{
-        box-shadow: 0 0 0 0 #fda62da8;
+        box-shadow: 0 0 0 0 #0ba360;
     }
     70%{
-        color: rgb(173, 173, 173);
+        color: rgb(255, 255, 255);
+        background-color: #0ba360;
         box-shadow: 0 0 0 17px rgba(92, 168, 44, 0);
     }
     100%{
@@ -221,6 +222,11 @@ body{
 .content-sobre p{
     font-family: var(--fonte-principal);
     font-weight: 400;
+}
+@media (max-width: 768px) {
+    .bg-sobre{
+        background-image: none;
+    }
 }
 
 /*===================================*/
